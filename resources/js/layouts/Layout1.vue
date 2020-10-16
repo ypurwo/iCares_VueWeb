@@ -15,7 +15,7 @@
       <!-- <SideBarStyle1 v-for="(item,indi) in user.home" :key="indi" :items="sidebar['poli'].menu" :logo="logo" /> -->
 
       </div>
-      <!-- TOP Nav Bar -->
+      <!-- TOP Nav Bar test -->
       <NavBarStyle1 title="Dashboard" :homeURL="{ name: 'home' }" :logo="logo">
         <template slot="responsiveRight">
           <div v-if="loader" class="text-center">
